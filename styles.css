@@ -1,0 +1,90 @@
+body {
+	margin: 0px;
+	padding: 2em;
+	background: linear-gradient(270deg, #d29bc5, #da5bbc, #6e25a4);
+	background-size: 600% 600%;
+
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+.container {
+	max-width: 23em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	padding: .25em;
+}
+
+p {
+	color: #332FF1;
+	font-size: 22px;
+}
+
+.seperator {
+	margin: 2em 0em;
+}
+
+.btn {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border-radius: 15px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 30px;
+	padding: 10px 30px 10px 30px;
+	text-decoration: none;
+	margin-bottom: .5em;
+	border: none;
+	box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.56);
+	outline: none;
+}
+
+.btn:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+.btn.tiny {
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+}
+
+.text {
+	line-height: 35px;
+	font-size: 27px;
+	color: #DBDBDB;
+}
